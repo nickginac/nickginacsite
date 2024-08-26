@@ -302,7 +302,7 @@
 
   .about__content p {
     text-align: center;
-    margin: 2rem 3rem;
+    margin: 2rem 3rem 0 3rem;
     font-size: 1.5rem;
 
   }
@@ -409,7 +409,16 @@
     align-items: center;
     width: 90%;
     max-width: 1000px;
-    margin: 40px auto 0 auto
+    margin: 2rem auto 0 auto
+  }
+
+  .social__media--wrap__exp {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    max-width: 1000px;
+    margin: 10rem auto 0 auto
   }
 
   .social__icons {
